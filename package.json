@@ -1,0 +1,26 @@
+{
+  "name": "goit-javascript-hw-18",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "server": "json-server --watch ./data/db.json --port 5000",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemocheret/goit-javascript-hw-18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/artemocheret/goit-javascript-hw-18/issues"
+  },
+  "homepage": "https://github.com/artemocheret/goit-javascript-hw-18#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  }
+}
